@@ -1,0 +1,51 @@
+body{
+  background: #fafbfb;
+  font-size: 87.5%;
+  font-family: sans-serif;
+  color: black;
+  line-height: 1.7em;
+  text-align: left;
+}
+
+#container{
+  width: 600px;
+  height: 55px;
+  border: 1px solid #e1e4e3;
+  padding: 10px;
+}
+
+.avatar{
+  width: 55px;
+  height: 55px;
+  float: left;
+  margin-right: 10px;
+}
+
+#container .title ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#container .title li{
+  display: inline;
+}
+
+.username{
+  font-weight: bolder;
+}
+
+.time{
+  float: right;
+  color: #c1bebe;
+  font-size: 85%;
+  margin-right: 10px;
+}
+
+.message{
+  margin-top: -20px;
+}
+
+.user_ref {
+  color: #828d9a;
+}
