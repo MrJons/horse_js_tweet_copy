@@ -1,5 +1,4 @@
 body{
-  background: #fafbfb;
   font-size: 87.5%;
   font-family: sans-serif;
   color: black;
@@ -7,10 +6,12 @@ body{
   text-align: left;
 }
 
-#container{
+.container{
+  background: #fafbfb;
   width: 600px;
   height: 55px;
-  border: 1px solid #e1e4e3;
+  border-top: 1px solid #e1e4e3;
+  border-bottom: 1px solid #e1e4e3;
   padding: 10px;
 }
 
@@ -19,16 +20,14 @@ body{
   height: 55px;
   float: left;
   margin-right: 10px;
+  border-radius: 5px;
 }
 
-#container .title ul{
+.container .title p, time{
   list-style: none;
+  display: inline;
   margin: 0;
   padding: 0;
-}
-
-#container .title li{
-  display: inline;
 }
 
 .username{
@@ -48,4 +47,5 @@ body{
 
 .user_ref {
   color: #828d9a;
+  text-decoration: none;
 }
